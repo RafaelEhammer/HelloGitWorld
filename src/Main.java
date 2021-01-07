@@ -39,19 +39,14 @@ public class Main
         }
         System.out.println(result2);
 
-        int e;
-        int f;
-        int g;
-        int h;
         int result3;
-
         try{
             System.out.println("Enter 4 numbers:");
-            e = sc.nextInt();
-            f = sc.nextInt();
-            g = sc.nextInt();
-            h = sc.nextInt();
-            result3 = e + f + g + h;
+            a = sc.nextInt();
+            b = sc.nextInt();
+            c = sc.nextInt();
+            d = sc.nextInt();
+            result3 = a + b + c + d;
         }
         catch (Exception ex)
         {
@@ -59,5 +54,21 @@ public class Main
             System.out.println("Error");
         }
         System.out.println(result3);
+
+        int result4;
+        try{
+            System.out.println("Enter 4 numbers:");
+            a = sc.nextInt();
+            b = sc.nextInt();
+            c = sc.nextInt();
+            d = sc.nextInt();
+            result4 = a - b - c - d;
+        }
+        catch (Exception ex)
+        {
+            result4 = -1;
+            System.out.println("Error");
+        }
+        System.out.println(result4);
     }
 }
