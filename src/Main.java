@@ -70,5 +70,19 @@ public class Main
             System.out.println("Error");
         }
         System.out.println(result4);
+
+        int result5;
+        try{
+            System.out.println("Enter 2 numbers:");
+            a = sc.nextInt();
+            b = sc.nextInt();
+            result5 = a * b;
+        }
+        catch (Exception ex)
+        {
+            result5 = -1;
+            System.out.println("Error");
+        }
+        System.out.println(result5);
     }
 }
