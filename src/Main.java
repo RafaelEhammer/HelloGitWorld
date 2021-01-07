@@ -38,5 +38,26 @@ public class Main
             System.out.println("Error");
         }
         System.out.println(result2);
+
+        int e;
+        int f;
+        int g;
+        int h;
+        int result3;
+
+        try{
+            System.out.println("Enter 4 numbers:");
+            e = sc.nextInt();
+            f = sc.nextInt();
+            g = sc.nextInt();
+            h = sc.nextInt();
+            result3 = e + f + g + h;
+        }
+        catch (Exception ex)
+        {
+            result3 = -1;
+            System.out.println("Error");
+        }
+        System.out.println(result3);
     }
 }
